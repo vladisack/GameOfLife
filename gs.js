@@ -59,7 +59,7 @@ const draw = (ctx, grid) => {
     for (let j = 0; j < grid.length; j++) {
       const value = grid[i][j]
       if (value) {
-        ctx.fillStyle = '#FF0000'
+        ctx.fillStyle = '#e60000'
         ctx.fillRect(i * Scell, j * Scell, Scell, Scell,)
       }
       ctx.strokeRect(i * Scell, j * Scell, Scell, Scell,)
